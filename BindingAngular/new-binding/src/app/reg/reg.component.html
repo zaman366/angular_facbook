@@ -1,11 +1,36 @@
-<div class="col-md-6">
-    <form method="post" action="home.html">
-          <div class="form-group">
-            <input class="form-control" type="text" name="username" placeholder="Username">
-          </div>
+<html>
+  <head>
 
-          <div class="form-group">
-            <input class="form-control" type="text" name="location" placeholder="Location">
+  </head>
+
+<body>
+
+<div class="container">
+  <div class="row" style="height: 100px;">
+    
+  </div>
+
+  <div class="row">
+
+<div class="col-md-4">
+  <form>
+   
+  </form>
+
+</div>
+
+
+
+
+<div class="col-md-4">
+
+  <div class="card" >
+    <div class="card-body text-center" style="height: 450px;">
+
+    <form method="post" action="home.html">
+      <h2>Sign Up</h2>
+          <div class="form-group ">
+            <input class="form-control" type="text" name="username" placeholder="Username">
           </div>
 
           <div class="form-group">
@@ -13,15 +38,54 @@
           </div>
 
           <div class="form-group">
-            <input class="btn btn-success" type="submit" name="register" value="Register">
+            <input class="form-control" type="text" name="location" placeholder="Location">
+          </div>
+
+
+          <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
+            <input placeholder="Date of birth" type="text" id="example" class="form-control">
+            
+            <i class="fas fa-calendar input-prefix" tabindex=0></i>
+          </div>
+          <br/>
+          <div class="text-left">
+            <h6>Gender:</h6>
+          </div>
+        
+        
+          <div class="row">
+          <div class="form-check" style="padding-left: 115px;">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              male
+            </label>
+          </div>
+
+
+          <div class="form-check" style="padding-left: 50px;">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              female
+            </label>
+          </div>
+
+
+         </div>
+         
+          <br/>
+          <div class="form-group">
+            <input class="btn btn-success " type="submit" name="register" value="Register">
           </div>
         </form>
 
-
-        <div class="card" style="width:20rem; height: 20rem;">
-          <div class="card-body">
-            This is some text within a card body.
-          </div>
+      </div>
         </div>
+      
+</div>
+     
+
+   </div>     
 
 </div>
+</body>
+</html>

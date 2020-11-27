@@ -1,3 +1,147 @@
-<p>
-  MyHome works fine!
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FaceClone</title>
+
+ 
+</head>
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+    <a class="navbar-brand text-white" href="#">Facebook</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Link</a>
+        </li>
+
+        <li ngbDropdown class="nav-item dropdown">
+          <a ngbDropdownToggle class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Settings
+          </a>
+
+          <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+
+        </li>
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+  
+    </div>
+  </nav>
+  <!-- ./nav -->
+
+  <!-- main -->
+  <main class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <!-- profile brief -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+           
+          </div>
+        </div>
+        <!-- ./profile brief -->
+
+        <!-- friend requests -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>friend requests</h4>
+            <ul>
+              <li>
+                <a href="#">johndoe</a> 
+                <a class="text-success" href="#">[accept]</a> 
+                <a class="text-danger" href="#">[decline]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ./friend requests -->
+      </div>
+      <div class="col-md-6">
+        <!-- post form -->
+        <form method="post" action="">
+          <div class="input-group">
+            <input class="form-control" type="text" name="content" placeholder="Make a post...">
+            <span class="input-group-btn">
+              <button class="btn btn-success" type="submit" name="post">Post</button>
+            </span>
+          </div>
+        </form><hr>
+        <!-- ./post form -->
+
+        <!-- feed -->
+        <div>
+          <!-- post -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Hello people! This is my first Facebook Clone post. Hurray!!!</p>
+            </div>
+            <div class="panel-footer">
+              <span>This is clone app</span> 
+              <span class="pull-right"><a class="text-danger" href="#">[delete]</a></span>
+            </div>
+          </div>
+          <!-- ./post -->
+        </div>
+        <!-- ./feed -->
+      </div>
+      <div class="col-md-3">
+      <!-- add friend -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>add friend</h4>
+            <ul>
+              <li>
+                <a href="#">alberte</a> 
+                <a href="#">[add]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ./add friend -->
+
+        <!-- friends -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>friends</h4>
+            <ul>
+              <li>
+                <a href="#">peterpan</a> 
+                <a class="text-danger" href="#">[unfriend]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ./friends -->
+      </div>
+    </div>
+  </main>
+  <!-- ./main -->
+
+  <!-- footer -->
+  <footer class="container text-center">
+    <ul class="nav nav-pills pull-right">
+      <li>Facebook Clone </li>
+    </ul>
+  </footer>
+  <!-- ./footer -->
+  
+</body>
+</html>
